@@ -2,18 +2,24 @@
   "name": "eslint-config-gulp",
   "version": "0.0.0",
   "description": "Sharable eslint config for gulp projects",
-  "main": "index.js",
+  "author": "Blaine Bublitz <blaine@iceddev.com> (http://iceddev.com)",
+  "contributors": [],
+  "repository": "gulpjs/eslint-config-gulp",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "main": "eslint.json",
+  "files": [
+    "LICENSE",
+    "eslint.json"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gulpjs/eslint-config-gulp.git"
-  },
-  "author": "Blaine Bublitz <blaine@iceddev.com> (http://iceddev.com/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gulpjs/eslint-config-gulp/issues"
-  },
-  "homepage": "https://github.com/gulpjs/eslint-config-gulp#readme"
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslint config"
+  ]
 }
