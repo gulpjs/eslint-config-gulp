@@ -12,7 +12,8 @@
   "main": "eslint.json",
   "files": [
     "LICENSE",
-    "eslint.json"
+    "eslint.json",
+    "test.json"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
