@@ -22,5 +22,8 @@
     "eslint",
     "eslint-config",
     "eslint config"
-  ]
+  ],
+  "devDependencies": {
+    "eslint-config-node-style-guide": "3.0.0"
+  }
 }

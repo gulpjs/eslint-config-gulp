@@ -1,5 +1,5 @@
 {
-  "extends": "./eslint.json",
+  "extends": "eslint.json",
   "env": {
     "mocha": true
   },
