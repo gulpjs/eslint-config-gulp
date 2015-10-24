@@ -1,6 +1,0 @@
-{
-  "extends": "node-style-guide",
-  "rules": {
-    "object-curly-spacing": [2, "always"]
-  }
-}
