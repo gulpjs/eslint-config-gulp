@@ -9,11 +9,12 @@
   "engines": {
     "node": ">= 0.10"
   },
-  "main": "eslint.json",
+  "main": "main.js",
   "files": [
     "LICENSE",
-    "eslint.json",
-    "test.json"
+    "_base.js",
+    "main.js",
+    "test.js"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,5 +23,8 @@
     "eslint",
     "eslint-config",
     "eslint config"
-  ]
+  ],
+  "dependencies": {
+    "eslint-config-node-style-guide": "3.0.0"
+  }
 }
