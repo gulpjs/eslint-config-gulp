@@ -22,8 +22,5 @@
     "eslint",
     "eslint-config",
     "eslint config"
-  ],
-  "peerDependencies": {
-    "eslint": "^2.13.1"
-  }
+  ]
 }
