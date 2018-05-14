@@ -23,7 +23,6 @@ var config = {
     "max-statements": [1, 30],
     "new-cap": 1,
     "no-extend-native": 2,
-    "no-mixed-spaces-and-tabs": 2,
     "no-unused-vars": 1,
     "no-use-before-define": [2, "nofunc"],
     "object-curly-spacing": [2, "always"],
