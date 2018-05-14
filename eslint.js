@@ -8,6 +8,7 @@ try {
 
 var config = {
   "root": true,
+  "extends": "eslint:recommended",
   "env": {
     "node": true
   },
