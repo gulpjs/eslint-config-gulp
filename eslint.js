@@ -7,6 +7,7 @@ try {
 }
 
 var config = {
+  "root": true,
   "env": {
     "node": true
   },
