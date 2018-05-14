@@ -9,10 +9,10 @@
   "engines": {
     "node": ">= 0.10"
   },
-  "main": "eslint.json",
+  "main": "eslint.js",
   "files": [
     "LICENSE",
-    "eslint.json",
+    "eslint.js",
     "test.json"
   ],
   "scripts": {
