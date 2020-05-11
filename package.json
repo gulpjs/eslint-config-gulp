@@ -7,19 +7,19 @@
   "repository": "gulpjs/eslint-config-gulp",
   "license": "MIT",
   "engines": {
-    "node": ">= 0.10"
+    "node": ">=10"
   },
   "main": "eslint.js",
   "files": [
     "LICENSE",
-    "eslint.js",
-    "test.json"
+    "eslint.js"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "eslint-config-prettier": "^6.11.0"
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-node": "^11.1.0"
   },
   "keywords": [
     "eslint",
