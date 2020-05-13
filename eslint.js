@@ -1,6 +1,6 @@
 'use strict';
 
-const config = {
+var config = {
   "root": true,
   "extends": ["eslint:recommended", "prettier"],
   "plugins": [
