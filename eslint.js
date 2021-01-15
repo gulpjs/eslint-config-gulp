@@ -14,7 +14,13 @@ var config = {
     "es2017": true
   },
   "rules": {
-    "node/no-unsupported-features/es-syntax": [2, {"version": ">=0.10"}],
+    "node/no-unsupported-features/es-syntax": [
+      2,
+      {
+        "version": ">=0.10",
+        "ignores": ["classes"]
+      }
+    ],
     "block-scoped-var": 2,
     "eqeqeq": [2, "smart"],
     "max-depth": [1, 3],
