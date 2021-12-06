@@ -17,7 +17,7 @@ var config = {
     "node/no-unsupported-features/es-syntax": [
       2,
       {
-        "version": ">=0.10",
+        "version": ">=10",
         "ignores": ["classes"]
       }
     ],
