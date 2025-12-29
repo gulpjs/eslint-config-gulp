@@ -2,12 +2,15 @@
   "name": "eslint-config-gulp",
   "version": "5.0.1",
   "description": "Sharable eslint config for gulp projects",
-  "author": "Blaine Bublitz <blaine@iceddev.com> (http://iceddev.com)",
-  "contributors": [],
+  "author": "Gulp Team <team@gulpjs.com> (http://gulpjs.com/)",
+  "contributors": [
+    "Blaine Bublitz <blaine.bublitz@gmail.com>"
+  ],
+  "funding": "https://github.com/sponsors/gulpjs",
   "repository": "gulpjs/eslint-config-gulp",
   "license": "MIT",
   "engines": {
-    "node": ">=10"
+    "node": ">=20"
   },
   "main": "eslint.js",
   "files": [
@@ -18,11 +21,11 @@
     "test": "eslint ."
   },
   "dependencies": {
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-node": "^11.1.0"
+    "@eslint/js": "^9.39.2",
+    "globals": "^16.5.0"
   },
   "devDependencies": {
-    "eslint": "^6.8.0"
+    "eslint": "^9.39.2"
   },
   "keywords": [
     "eslint",
