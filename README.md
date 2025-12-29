@@ -1,31 +1,32 @@
 <p align="center">
   <a href="http://gulpjs.com">
-    <img height="257" width="114" src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png">
+    <img height="257" width="114" src="https://raw.githubusercontent.com/gulpjs/artwork/main/gulp-2x.png">
   </a>
 </p>
 
 # eslint-config-gulp
 
-[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Gitter chat][gitter-image]][gitter-url]
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url]
 
-Sharable eslint config for gulp projects
+Sharable eslint config for gulp projects.
 
 ## Usage
 
-```json
-// .eslintrc
-{
-  "extends": "gulp"
-}
+```js
+// eslint.config.js
+import gulpConfig from "eslint-config-gulp";
+
+export default [
+  ...gulpConfig,
+];
 ```
 
 ## License
 
 MIT
 
-[downloads-image]: http://img.shields.io/npm/dm/eslint-config-gulp.svg
-[npm-url]: https://npmjs.org/package/eslint-config-gulp
-[npm-image]: http://img.shields.io/npm/v/eslint-config-gulp.svg
-
-[gitter-url]: https://gitter.im/gulpjs/gulp
-[gitter-image]: https://badges.gitter.im/gulpjs/gulp.png
+<!-- prettier-ignore-start -->
+[downloads-image]: https://img.shields.io/npm/dm/eslint-config-gulp.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/eslint-config-gulp
+[npm-image]: https://img.shields.io/npm/v/eslint-config-gulp.svg?style=flat-square
+<!-- prettier-ignore-end -->
