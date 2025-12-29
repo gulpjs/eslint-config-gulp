@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-gulp",
-  "version": "5.0.1",
+  "version": "6.0.0",
   "description": "Sharable eslint config for gulp projects",
   "author": "Gulp Team <team@gulpjs.com> (http://gulpjs.com/)",
   "contributors": [
