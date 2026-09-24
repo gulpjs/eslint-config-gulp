@@ -16,9 +16,7 @@ Sharable eslint config for gulp projects.
 // eslint.config.js
 import gulpConfig from "eslint-config-gulp";
 
-export default [
-  ...gulpConfig,
-];
+export default [...gulpConfig];
 ```
 
 ## License
