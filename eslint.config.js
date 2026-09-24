@@ -1,3 +1,3 @@
-var gulpConfig = require("./eslint.js");
+import gulpConfig from "./eslint.js";
 
-module.exports = [...gulpConfig];
+export default [...gulpConfig];
