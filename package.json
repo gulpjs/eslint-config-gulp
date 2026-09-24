@@ -18,6 +18,8 @@
     "eslint.js"
   ],
   "scripts": {
+    "format-check": "prettier . --check",
+    "format-write": "prettier . --write",
     "test": "eslint ."
   },
   "dependencies": {
@@ -25,7 +27,8 @@
     "globals": "^16.5.0"
   },
   "devDependencies": {
-    "eslint": "^9.39.2"
+    "eslint": "^9.39.2",
+    "prettier": "3.9.6"
   },
   "keywords": [
     "eslint",

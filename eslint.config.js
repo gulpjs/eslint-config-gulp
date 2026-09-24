@@ -1,5 +1,3 @@
 var gulpConfig = require("./eslint.js");
 
-module.exports = [
-  ...gulpConfig,
-];
+module.exports = [...gulpConfig];
