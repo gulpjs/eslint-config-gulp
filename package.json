@@ -10,7 +10,7 @@
   "repository": "gulpjs/eslint-config-gulp",
   "license": "MIT",
   "engines": {
-    "node": ">=20"
+    "node": ">= 22.15.0"
   },
   "main": "eslint.js",
   "files": [
