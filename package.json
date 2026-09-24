@@ -15,7 +15,9 @@
   "engines": {
     "node": ">= 22.15.0"
   },
-  "main": "eslint.js",
+  "type": "module",
+  "main": "./eslint.js",
+  "exports": "./eslint.js",
   "files": [
     "LICENSE",
     "eslint.js"
